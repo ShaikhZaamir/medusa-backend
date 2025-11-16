@@ -5,14 +5,17 @@ loadEnv(process.env.NODE_ENV || "development", process.cwd())
 export default defineConfig({
   projectConfig: {
     databaseUrl: process.env.DATABASE_URL,
+
     http: {
       storeCors: process.env.STORE_CORS || "*",
       adminCors: process.env.ADMIN_CORS || "*",
+      authCors: process.env.AUTH_CORS || "*",
+
       jwtSecret: process.env.JWT_SECRET,
       cookieSecret: process.env.COOKIE_SECRET,
     },
   },
 
-  // IMPORTANT: Disable admin bundler completely (Medusa v2)
+  // Disable admin bundler in Medusa v2
   admin: undefined,
 })
