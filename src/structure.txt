@@ -1,0 +1,44 @@
+Folder PATH listing for volume OS
+Volume serial number is 5E76-E313
+C:.
+|   structure.txt
+|   
++---admin
+|   |   README.md
+|   |   tsconfig.json
+|   |   vite-env.d.ts
+|   |   
+|   \---i18n
+|           index.ts
+|           README.md
+|           
++---api
+|   |   README.md
+|   |   
+|   +---admin
+|   |   \---custom
+|   |           route.ts
+|   |           
+|   \---store
+|       \---custom
+|               route.ts
+|               
++---jobs
+|       README.md
+|       
++---links
+|       README.md
+|       
++---modules
+|       README.md
+|       
++---scripts
+|       README.md
+|       seed.ts
+|       
++---subscribers
+|       README.md
+|       
+\---workflows
+        README.md
+        
